@@ -1,0 +1,18 @@
+#lista-dischi {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .card-disco {
+        width: 250px;
+        background-color: black;
+        padding: 10px;
+        color: white;
+        margin-bottom: $spaziatura + 10px;
+        text-align: center;
+
+        img {
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+header {
+  background-color: black;
+  padding: 30px;
+  margin-bottom: 60px;
+}
+
+header h1 {
+  color: lightgreen;
+}
+
+#lista-dischi {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#lista-dischi .card-disco {
+  width: 250px;
+  background-color: black;
+  padding: 10px;
+  color: white;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+#lista-dischi .card-disco img {
+  width: 100%;
+}
+

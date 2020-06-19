@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>PHP dischi</title>
+        <link rel="stylesheet" href="../public/css/app.css">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <h1>AJAX DISCHI</h1>
+            </div>
+        </header>
+        <div class="container">
+            <div id="lista-dischi" data-is-ajax="1">
+
+            </div>
+        </div>
+        <script id="card-template" type="text/x-handlebars-template">
+            <div class="card-disco">
+                <img src="{{ copertina }}" alt="">
+                <strong>{{ titolo }}</strong>
+                <p>{{ autore }}</p>
+                <small>{{ anno }}</small>
+            </div>
+        </script>
+        <script src="../public/js/app.js" charset="utf-8"></script>
+    </body>
+</html>
